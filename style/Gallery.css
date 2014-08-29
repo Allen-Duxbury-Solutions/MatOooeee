@@ -153,7 +153,6 @@ span.play p {
     margin-right:2%;
     margin-top: 0;
     color: white;
-        color: white;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -161,19 +160,23 @@ span.play p {
     1px 1px 0 #000;  
 }
 #MovieInfo p{
+    font-family: baskerville,'palatino linotype','times new roman',serif;
     text-align: justify;
     text-overflow:ellipsis;
     padding-left: 30px;
     color: white;
-        text-shadow:
-   color: #90e6f5;
-   text-shadow: 0 0 3px #959DA9, 0 0 6px #959DA9,
-           0 0 9px #959DA9;
-    letter-spacing: 3px;
+        font-family: baskerville,'palatino linotype','times new roman',serif;
+    font-size: 1.375em;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 .title {
     background: url(../images/comments.png) left no-repeat;
     padding: 0 0 0 40px;
+    font-family: baskerville,'palatino linotype','times new roman',serif;
 }
 .author {
     background: url(../images/author.png) left no-repeat;
@@ -182,4 +185,5 @@ span.play p {
 .date {
     background: url(../images/date.png) left no-repeat;
     padding: 0 0 0 40px;
+    font-family: baskerville,'palatino linotype','times new roman',serif;
 }

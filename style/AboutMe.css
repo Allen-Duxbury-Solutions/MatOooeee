@@ -6,11 +6,12 @@
     margin-right: 20%;
     margin-left: 17.5%;
     list-style-type: none;
-    display: block;
+    display: inline-block;
+    width:60%;
 }
 #AboutMe ul li h2{
     font-family: baskerville,'palatino linotype','times new roman',serif;
-    font-size: 1.375em;
+    font-size: 1.5em;
     line-height: 1em;
     letter-spacing: -0.045em;
     text-align: right;
@@ -26,29 +27,32 @@
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    1px 1px 0 #000; 
 }
 #AboutMe ul li p{
+    font-family: baskerville,'palatino linotype','times new roman',serif;
     text-align: justify;
-    margin: 1.571em 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font-weight: inherit;
-    font-style: inherit;
-    font-family: inherit;
+    text-overflow:ellipsis;
+    padding-left: 30px;
+    color: white;
+    font-size: 1.2em;
     text-shadow:
-   color: #90e6f5;
-   text-shadow: 0 0 3px #959DA9, 0 0 6px #959DA9,
-           0 0 9px #959DA9;
-    letter-spacing: 3px;
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
     -webkit-margin-before: 0px;
 -webkit-margin-after: 1em;
 -webkit-margin-start: 0px;
 -webkit-margin-end: 0px;
+    margin-left:170px;
 }
 
 #AboutMe ul li h3{
  color: #959DA9;  
     padding: 0;
+}
+
+#firstHeading {
+    height:125px;
 }
