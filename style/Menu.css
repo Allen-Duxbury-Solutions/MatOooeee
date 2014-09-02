@@ -30,9 +30,9 @@
 #menu-bar a {
     height: 3vh;
     font-weight: bold;
-    font-family: baskerville,'palatino linotype','times new roman',serif;
+    font-family: font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
     font-style: normal;
-    font-size: 4vh;
+    font-size: 3.25vh;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -58,7 +58,7 @@
     background: -webkit-gradient(linear, left top, left bottom, from(#B5B5B5), to(#FFFFFF));
     background: -moz-linear-gradient(top,  #B5B5B5,  #FFFFFF);
     color: #444444;
-    height: 30%;
+    height: 2vh;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
