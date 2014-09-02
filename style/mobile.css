@@ -35,3 +35,12 @@ body{
     max-width:100%;
 }
 
+#Menu{
+    height:10vh;
+    top: 0vh;
+    position: relative;
+}
+
+#Logo {
+    top:0vh;
+}
